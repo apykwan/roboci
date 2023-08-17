@@ -15,4 +15,4 @@ export const requestRobots = () => (dispatch) => {
     .catch(error => dispatch({ type: REQUEST_ROBOTS_FAILED, payload: error }))
 }
 
-console.log('meaningless text');
+console.log('meaningless');
